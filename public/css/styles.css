@@ -1,0 +1,67 @@
+header {
+    min-height: 4em;
+}
+.page {
+    padding: 1em 0;
+}
+
+.namemarker {
+	font-family: 'Lekton', monospace;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	position: absolute;
+	/*padding: 6px 8px;*/
+	-webkit-transition: opacity .5s;
+	-moz-transition: opacity .5s;
+	-ms-transition: opacity .5s;
+	-o-transition: opacity .5s;
+	transition: opacity .5s;
+	display: inline;
+	cursor: pointer;
+}
+
+.divmarker {
+	font-family: 'Lekton', monospace;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	position: absolute;
+	/*padding: 6px 8px;*/
+	-webkit-transition: opacity .5s;
+	-moz-transition: opacity .5s;
+	-ms-transition: opacity .5s;
+	-o-transition: opacity .5s;
+	transition: opacity .5s;
+	display: inline;
+	width: 20px;
+	height: 20px;
+	/*border: 1px solid yellow;*/
+	cursor: pointer;
+}
+
+.namemarker span.name {
+	display: inline-block;
+	width: 100%;
+	color: #fff;
+	text-shadow: .1em .1em 4px #000;
+	-webkit-transition: text-shadow .25s;
+	-moz-transition: text-shadow .25s;
+	-ms-transition: text-shadow .25s;
+	-o-transition: text-shadow .25s;
+	transition: text-shadow .25s;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+}
+
+.planet-tooltip {
+	padding: 10px;
+	background: rgba( 255,255,255, 0.7);
+	color: black;
+}
